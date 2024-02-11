@@ -23,10 +23,10 @@ export default function Home() {
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/Catalogit-logo.png"
+          src="/Catalogit-logo.svg"
           alt="Catalogit Logo"
-          width={180}
-          height={37}
+          width={540}
+          height={111}
           priority
         />
       </div>
