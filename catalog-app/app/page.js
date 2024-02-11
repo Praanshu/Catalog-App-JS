@@ -23,7 +23,7 @@ export default function Home() {
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/next.svg"
+          src="/Catalogit-logo.png"
           alt="Catalogit Logo"
           width={180}
           height={37}
