@@ -6,24 +6,16 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
+          Get started by signing up to&nbsp;
+          <code className={styles.code}>Catalogit</code>
         </p>
         <div>
           <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
+            By Praanshu
           </a>
         </div>
       </div>
@@ -32,7 +24,7 @@ export default function Home() {
         <Image
           className={styles.logo}
           src="/next.svg"
-          alt="Next.js Logo"
+          alt="Catalogit Logo"
           width={180}
           height={37}
           priority
@@ -41,15 +33,15 @@ export default function Home() {
 
       <div className={styles.grid}>
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="./backend/google-sheets.js"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Dox <span>-&gt;</span>
+            View Catalog <span>-&gt;</span>
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>See how your customer would view your catalog.</p>
         </a>
 
         <a
@@ -59,9 +51,9 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Learn <span>-&gt;</span>
+            Edit Catalog <span>-&gt;</span>
           </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
+          <p>Modify the catagories and products and any related details.</p>
         </a>
 
         <a
@@ -71,9 +63,9 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Templates <span>-&gt;</span>
+            Orders <span>-&gt;</span>
           </h2>
-          <p>Explore starter templates for Next.js.</p>
+          <p>View customers, details and corresponding orders.</p>
         </a>
 
         <a
@@ -83,10 +75,10 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Deploy <span>-&gt;</span>
+            Share <span>-&gt;</span>
           </h2>
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Create your custom catalog and order form link and share with your customers.
           </p>
         </a>
       </div>
